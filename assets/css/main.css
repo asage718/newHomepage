@@ -2980,7 +2980,7 @@ input, select, textarea {
 	
 	.gallery li {
 		margin-bottom: 20px;/*各画像下に余白をつける*/
-		list-style: none;
+		list-style: none !important;
 	}
 	
 	/*ギャラリー内のイメージは横幅100%にする*/
@@ -3008,6 +3008,6 @@ input, select, textarea {
 	ul{
 	  margin:0;
 	  padding: 0;
-	  list-style: none;
+	  list-style: none !important;
 	}
 	
