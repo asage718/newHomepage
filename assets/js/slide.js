@@ -23,12 +23,20 @@
             current++;
             slideImage.src = images[current];
         }
+        else if (current + 1 === images.length) {
+            current = 0;
+            slideImage.src = images[current];
+        }
         mainImage.textContent = `${current + 1}/${images.length}`;
     });
 
     prevButton.addEventListener('click', function() {
         if (current > 0) {
             current--;
+            slideImage.src = images[current];
+        }
+        else if (current === 0) {
+            current = images.length - 1;
             slideImage.src = images[current];
         }
         mainImage.textContent = `${current + 1}/${images.length}`;
