@@ -2195,17 +2195,23 @@ input, select, textarea {
 #prevImage,
 #nextImage {
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	transform: translateY(-50%);
 	transition: .3s;
 	cursor: pointer;
 	font-size: 2vw;
 }
+
+#prevImage:hover,
+#nextImage:hover {
+    color: #000; /* ホバー時の色を変更 */
+}
+
 #prevImage {
-	left: 10%;
+	left: 15%;
 }
 #nextImage {
-	right: 10%;
+	right: 15%;
 }
 #prevImage::before,
 #nextImage::before {
@@ -2219,15 +2225,17 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 736px) {
-	.prevImage,
-	.nextImage {
-		font-size: 4vw;
+	#prevImage,
+	#nextImage {
+		font-size: 20vw;
+		top: 55%;
 	}
-	.prevImage {
-		left: 5%;
+
+	#prevImage {
+		left: 15%;
 	}
-	.nextImage {
-		right: 5%;
+	#nextImage {
+		right: 15%;
 	}
 }
 
@@ -2980,7 +2988,7 @@ input, select, textarea {
 	
 	.gallery li {
 		margin-bottom: 20px;/*各画像下に余白をつける*/
-		list-style: none !important;
+		list-style: none;
 	}
 	
 	/*ギャラリー内のイメージは横幅100%にする*/
