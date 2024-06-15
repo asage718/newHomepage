@@ -2173,23 +2173,27 @@ input, select, textarea {
 
 
 /* mainImage */
-.mainImage {
-	width: 100%;
-	margin: 0 auto 10px;
-	padding: 0 10px;
-	border-top: 1px solid black;
+#mainImage {
+	display: block; /* ブロックレベル要素として表示 */
+    margin: 0 auto; /* 左右のマージンを自動にして中央揃え */
+    width: 50%; /* 必要に応じて幅を調整 */
+    height: auto; /* 高さを自動調整してアスペクト比を保持 */
+
+	/* border-top: 1px solid black; */
 }
 
-.mainImage img{
-	width: 45%;
-	height: 45%;
-	margin: 50px auto 20px;
+#mainImage img{
+	display: block; /* ブロックレベル要素として表示 */
+    margin: 0 auto; /* 左右のマージンを自動にして中央揃え */
+    width: 50%; /* 必要に応じて幅を調整 */
+    height: auto; /* 高さを自動調整してアスペクト比を保持 */
+
 	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
 }
 
 /* slideshow */
-.prevImage,
-.nextImage {
+#prevImage,
+#nextImage {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -2197,20 +2201,20 @@ input, select, textarea {
 	cursor: pointer;
 	font-size: 2vw;
 }
-.prevImage {
+#prevImage {
 	left: 10%;
 }
-.nextImage {
+#nextImage {
 	right: 10%;
 }
-.prevImage::before,
-.nextImage::before {
+#prevImage::before,
+#nextImage::before {
 	font-size: 2vw;
 	color: gray;
 }
 
-.prevImage:hover,
-.nextImage:hover {
+#prevImage:hover,
+#nextImage:hover {
 	color:black;
 }
 
