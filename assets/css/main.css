@@ -2980,6 +2980,7 @@ input, select, textarea {
 	
 	.gallery li {
 		margin-bottom: 20px;/*各画像下に余白をつける*/
+		list-style: none;
 	}
 	
 	/*ギャラリー内のイメージは横幅100%にする*/
