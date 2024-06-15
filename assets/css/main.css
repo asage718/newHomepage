@@ -2213,6 +2213,20 @@ input, select, textarea {
 .nextImage:hover {
 	color:black;
 }
+
+@media screen and (max-width: 736px) {
+	.prevImage,
+	.nextImage {
+		font-size: 4vw;
+	}
+	.prevImage {
+		left: 5%;
+	}
+	.nextImage {
+		right: 5%;
+	}
+}
+
 /* Banner */
 
 	#banner {
