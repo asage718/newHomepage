@@ -2201,6 +2201,7 @@ input, select, textarea {
     transition: transform 1s ease-out;
 }
 
+
 .slider .slick-slide {
   transform: scale(0.8);/*左右の画像のサイズを80%に*/
   transition: all 0.5s;/*拡大や透過のアニメーションを0.5秒で行う*/
@@ -3016,22 +3017,23 @@ input, select, textarea {
 
 /* gallery */
 .gallery{
-	columns: 4;/*段組みの数*/
-	padding:0 15px;/*ギャラリー左右に余白をつける*/
+	columns: 4;
 	}
 
 	.gallery li {
-		margin-bottom: 20px;/*各画像下に余白をつける*/
+		margin-bottom: 20px;
 		list-style: none;
+		display: inline-block;
 	}
+
 
 	/*ギャラリー内のイメージは横幅100%にする*/
 	.gallery img{
 		width:100%;
 		height:auto;
-		vertical-align: bottom;/*画像の下にできる余白を削除*/
+		vertical-align: bottom;
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-		border-radius: 10px; /* 角を丸くする */
+		border-radius: 10px;
 	}
 
 	.gallery img:hover{
