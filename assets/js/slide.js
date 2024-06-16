@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.slider').slick({
         autoplay: true,//自動的に動き出すか。初期値はfalse。
-        autoplaySpeed: 6000,//スライドの表示時間を6秒に設定
+        autoplaySpeed: 3000,//スライドの表示時間を6秒に設定
         infinite: true,//スライドをループさせるかどうか。初期値はtrue。
         speed: 1000,//スライドのスピード。初期値は300。
         slidesToShow: 3,//スライドを画面に3枚見せる
