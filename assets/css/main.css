@@ -2885,6 +2885,16 @@ input, select, textarea {
 
 		/* Contact */
 
+		.contactbox {
+			background: #ffffff;
+			border-bottom: solid 1px #ccc;
+			margin: 2.75em 1.75em 2.75em 1.75em;
+			padding: 2.75em 1.75em 2.75em 1.75em;
+			object-fit: cover;
+			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+		}
+
 			ul.contact li {
 				padding: 0.8em 0 0.8em 7em;
 			}
@@ -3022,6 +3032,11 @@ input, select, textarea {
 		vertical-align: bottom;/*画像の下にできる余白を削除*/
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 		border-radius: 10px; /* 角を丸くする */
+	}
+
+	.gallery img:hover{
+		transform: scale(1.1);
+		transition: 0.3s;
 	}
 
 		/*　横幅900px以下の段組み設定　*/
