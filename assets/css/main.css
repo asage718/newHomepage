@@ -2182,13 +2182,13 @@ input, select, textarea {
 /* mainImage */
 #mainImage {
 	display: block; /* ブロックレベル要素として表示 */
-    margin: 0 auto; /* 左右のマージンを自動にして中央揃え */
+    margin: 0 auto 30px; /* 左右のマージンを自動にして中央揃え */
     width: 50%; /* 必要に応じて幅を調整 */
     height: auto; /* 高さを自動調整してアスペクト比を保持 */
-	/* border-top: 1px solid black; */
 	border-radius: 10px;
 	filter: drop-shadow(10px 12px 5px rgba(0, 0, 0, 0.6));
 }
+
 
 #mainImage img{
 	display: block; /* ブロックレベル要素として表示 */
