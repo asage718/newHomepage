@@ -2369,7 +2369,6 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2401,12 +2400,12 @@ input, select, textarea {
 			#footer header h2 {
 				font-size: 1.75em;
 			}
-		
+
 			#footer .mailAdress {
 				color: white;
-				text-align: center;
-				display: block; /* 必要に応じて追加 */
+				right: 10%;
 			}
+
 
 /* Copyright */
 
@@ -2516,6 +2515,10 @@ input, select, textarea {
 					#footer header h2 {
 						font-size: 1.25em;
 						margin: auto;
+					}
+					#footer .mailAdress {
+						color: white;
+						right: 10%;
 					}
 
 		/* Copyright */
