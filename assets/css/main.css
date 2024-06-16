@@ -1661,7 +1661,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: rgb(209, 208, 208);
 		}
 
 			input[type="button"].alt:hover,
@@ -2402,9 +2402,11 @@ input, select, textarea {
 				font-size: 1.75em;
 			}
 		
-		#footer .mailAdress {
-			color: white;
-		}
+			#footer .mailAdress {
+				color: white;
+				text-align: center;
+				display: block; /* 必要に応じて追加 */
+			}
 
 /* Copyright */
 
