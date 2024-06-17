@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
     $('.slider').slick({
         autoplay: true,//自動的に動き出すか。初期値はfalse。
         autoplaySpeed: 3000,//スライドの表示時間を6秒に設定
