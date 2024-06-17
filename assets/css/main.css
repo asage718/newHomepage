@@ -2896,12 +2896,12 @@ input, select, textarea {
 			border-radius: 10px;
 		}
 
-			ul.contact li {
-				padding: 0.8em 0 0.8em 7em;
+			ul.contactbox li {
+				padding: 10em 10em 10em 10em;
 			}
 
-				ul.contact li h3 {
-					top: 0.8em;
+				ul.contactbox li h3 {
+					top: 1em;
 				}
 
 		/* Dates */
